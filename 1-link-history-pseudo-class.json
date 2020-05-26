@@ -1,0 +1,32 @@
+{
+    "selector_version": 1,
+    "slug": "link-history-pseudo-class",
+    "name": "Link history pseudo-class",
+    "description": "This **link history pseudo-class** selects only unvisited links. If it's needed to style only non-visited links, you need to set the `:link` selector before the others.",
+    "example": ":link",
+    "example_description": "In this example will the second link - which doesn't exists - be in green color.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "3.0"
+        },
+        "Mobile": {
+            "Chrome": "1.5",
+            "Firefox": "1.0",
+            "Safari": "3.1",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "3.0"
+        }
+    },
+    "codepen_identifier": "GEbLgQ",
+    "caniuse_identifier": false,
+    "disqus_identifier": "af33c9b38c16e0379faf40f39df0f375",
+    "deprecated": false,
+    "order": 5,
+    "sub_selectors": []
+}

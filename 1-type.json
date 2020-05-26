@@ -1,0 +1,32 @@
+{
+    "selector_version": 1,
+    "slug": "type",
+    "name": "Type",
+    "description": "This **type selector** will select every fitting element which conforms the element type. This selector is case insensitive in (X)HTML but case sensitive in XML.",
+    "example": "E",
+    "example_description": "In this example will be all `<div>`'s have a red color while all other elements will stay the same.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "2.0"
+        },
+        "Mobile": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "2.0"
+        }
+    },
+    "codepen_identifier": "KqjYwY",
+    "caniuse_identifier": false,
+    "disqus_identifier": "a1beb9fee8623b1f118774534c855169",
+    "deprecated": false,
+    "order": 1,
+    "sub_selectors": []
+}

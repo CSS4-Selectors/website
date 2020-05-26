@@ -1,0 +1,24 @@
+{
+    "selector_version": 2,
+    "slug": "child-combination",
+    "name": "Child combination",
+    "description": "This **child combination selector** will match child elements which are **direct children** of the first selector.",
+    "example": "E > F",
+    "example_description": "The first inner `<span>` inside the `<div>` will be red because its a direct child, the inner inner `<span>` will not be matched.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.3",
+            "Edge": "12.0",
+            "Internet Explorer": "7.0",
+            "Opera": "9.2"
+        }
+    },
+    "codepen_identifier": "dRBLvV",
+    "caniuse_identifier": false,
+    "disqus_identifier": "15a223fa55c29ebfb3dd18267b211879",
+    "deprecated": false,
+    "order": 5,
+    "sub_selectors": []
+}

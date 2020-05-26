@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "mutability-pseudo-class",
+    "name": "Mutability pseudo-class",
+    "description": "The pseudo-class **mutability** represents elements whose contents is user-alterable or not. `:read-only` represents the biggest part of a site: the non-alterable content. `:read-write` represents input elements which are user-alterable or with the in HTML5 newly introduced contenteditable attribute which allows the user to edit content.",
+    "statistics_regex": "(:read-only|:read-write)",
+    "example": ":read-only / :read-write",
+    "example_description": "In the above mentioned code all non-alterable content is going to have the font `Verdana, Arial, sans-serif` while the editable inputs or contenteditable content is going to have a different font with a dotted gray border.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "32",
+            "Firefox": "36",
+            "Safari": "8",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": "14"
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": "36",
+            "Safari": "9",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "RgzOEe",
+    "caniuse_identifier": false,
+    "disqus_identifier": "aa796bbf9e0a45500e4c9de8b4fa848d",
+    "deprecated": false,
+    "order": 11,
+    "sub_selectors": []
+}

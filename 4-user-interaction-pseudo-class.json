@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "user-interaction-pseudo-class",
+    "name": "User-interaction pseudo-class",
+    "description": "This pseudo-class is called **user-interaction pseudo-class** and represents elements with invalid input but only after the user interacted with the matched element, for example by focusing it or trying to submit a form containing it.",
+    "statistics_regex": ":user-invalid",
+    "example": ":user-invalid",
+    "example_description": "In this example the input with invalid content will have a red border after it got focused.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "MVxwvY",
+    "caniuse_identifier": false,
+    "disqus_identifier": "711f2d4f7482ab2d7a2a9f51cb9e228c",
+    "deprecated": false,
+    "order": 17,
+    "sub_selectors": []
+}

@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "default-option-pseudo-class",
+    "name": "Default option pseudo-class",
+    "description": "This pseudo-class is called the **default option** and it selects the default element among a set of the same elements. It would select the default item of a select list or a button which is its form default button for example.\n[info]This pseudo-class is also part of the CSS3UI specification.[/info]",
+    "statistics_regex": ":default",
+    "example": ":default",
+    "example_description": "The mentioned example would set the `background-color` of a default element of a selection list/button group to `gray`.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "6.0",
+            "Firefox": "4.0",
+            "Safari": "5.1",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": "12.1"
+        },
+        "Mobile": {
+            "Chrome": "6.0",
+            "Firefox": "4.0",
+            "Safari": "7.1",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": "12.1"
+        }
+    },
+    "codepen_identifier": "WOqWge",
+    "caniuse_identifier": "css-default-pseudo",
+    "disqus_identifier": "f27093e162b44999c0c0aee82b2af2f9",
+    "deprecated": false,
+    "order": 23,
+    "sub_selectors": []
+}

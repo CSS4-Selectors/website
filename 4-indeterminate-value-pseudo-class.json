@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "indeterminate-value-pseudo-class",
+    "name": "Indeterminate-value pseudo-class",
+    "description": "This pseudo-class is called the **indeterminate-value** pseudo-class which represents the indeterminate state of radio or checkbox elements. This state is set if the checkbox/radio is neither checked nor unchecked, basically a no pre-selected choice. Another indeterminate state would be an unknown progress meter completion.",
+    "statistics_regex": ":indeterminate",
+    "example": ":indeterminate",
+    "example_description": "The above mentioned example would decrease the `opacity` of not pre-selected choice elements down to `0.6`.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "15.0",
+            "Firefox": "4.0",
+            "Safari": "5.1",
+            "Edge": "12.0",
+            "Internet Explorer": "9.0",
+            "Opera": "12.1"
+        },
+        "Mobile": {
+            "Chrome": "59",
+            "Firefox": "1",
+            "Safari": "7.1",
+            "Edge": "12.0",
+            "Internet Explorer": "10.0",
+            "Opera": "12.1"
+        }
+    },
+    "codepen_identifier": "gRNyQq",
+    "caniuse_identifier": "css-indeterminate-pseudo",
+    "disqus_identifier": "262464da48ddecd53de33c091645791f",
+    "deprecated": false,
+    "order": 15,
+    "sub_selectors": []
+}

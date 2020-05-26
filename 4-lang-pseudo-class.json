@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "lang-pseudo-class",
+    "name": "Lang pseudo-class",
+    "description": "The **lang pseudo-class** will match the elements based on the document language. This could be set via the `lang` HTML attribute, an `HTTP` or `<meta>` information and it's similar to the CSS2 lang pseudo-class selector. The difference is the newly introduced wildcard selector which allows to select more languages at once.",
+    "statistics_regex": ":lang\\s*\\((.*\\*+)\\)",
+    "example": ":lang(en-*)",
+    "example_description": "While all elements with a language attribute that indicates English will have a red color, the French text will keep its default color.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "KqjYbd",
+    "caniuse_identifier": false,
+    "disqus_identifier": "aa51a70e8e18fa9c9c458e9fb7a3187e",
+    "deprecated": false,
+    "order": 7,
+    "sub_selectors": []
+}

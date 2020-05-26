@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "placeholder-pseudo-class",
+    "name": "Placeholder pseudo-class",
+    "description": "The **placeholder** pseudo-class is going to match input elements which show a placeholder text.",
+    "statistics_regex": ":placeholder-shown",
+    "example": ":placeholder-shown",
+    "example_description": "In this example the placeholder text will be green; as soon as the input gets entered, the default color for text will be used.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1",
+            "Firefox": "4",
+            "Safari": "5",
+            "Edge": "12.0",
+            "Internet Explorer": "10",
+            "Opera": "15"
+        },
+        "Mobile": {
+            "Chrome": "2.1",
+            "Firefox": "33",
+            "Safari": "4.3",
+            "Edge": "12.0",
+            "Internet Explorer": "10",
+            "Opera": "24"
+        }
+    },
+    "codepen_identifier": "QgXPYw",
+    "caniuse_identifier": "css-placeholder-shown",
+    "disqus_identifier": "36d031edfefd7188126de8120f2d032d",
+    "deprecated": false,
+    "order": 14,
+    "sub_selectors": []
+}

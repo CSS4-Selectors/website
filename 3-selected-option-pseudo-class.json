@@ -1,0 +1,24 @@
+{
+    "selector_version": 3,
+    "slug": "selected-option-pseudo-class",
+    "name": "Selected-option pseudo-class",
+    "description": "This pseudo-class is called **selected-option** and will match any element which is in checked mode when the user selects the element(s), e.g. checkboxes or radio buttons.",
+    "example": ":checked",
+    "example_description": "Here, in this example, will change the `opacity` of a checked checkbox to the value of 50%.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "3.0",
+            "Edge": "12.0",
+            "Internet Explorer": "9.0",
+            "Opera": "9.0"
+        }
+    },
+    "codepen_identifier": "XgLQqN",
+    "caniuse_identifier": false,
+    "disqus_identifier": "4c402296e95e3ffbcee3c578aa801dbb",
+    "deprecated": false,
+    "order": 6,
+    "sub_selectors": []
+}

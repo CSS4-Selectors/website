@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "target-container-pseudo-class",
+    "name": "Target container pseudo-class",
+    "description": "The **target container** pseudo-class acts like `:target` by matching elements whose descendant in the flat tree matches the target as well.",
+    "statistics_regex": ":target-within",
+    "example": ":target-within",
+    "example_description": "After clicking on the anchor jump link the article with its nested anchor element matching the target will get a grey background.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "aYXPwe",
+    "caniuse_identifier": false,
+    "disqus_identifier": "44d19c3ae2abdf88ee1a28968e0c7cce",
+    "deprecated": false,
+    "order": 26,
+    "sub_selectors": []
+}

@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "grid-structural-pseudo-class",
+    "name": "Grid-Structural pseudo-class",
+    "description": "The **grid-structural** pseudo-class is made for structural grids like tables. The `:nth-col()` pseudo-class represents a cell belonging to the column in a grid structure that has nth-columns before it, while `:nth-last-col()` will count from after that column.",
+    "statistics_regex": ":nth(-last)?-col",
+    "example": ":nth-col(n) / :nth-last-col(n)",
+    "example_description": "`:nth-col()` will set a gray `background-color` to each second column counting from the first column and `:nth-last-col()` will add a green `background-color` to every third column counting from the last column.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "EXBJOX",
+    "caniuse_identifier": false,
+    "disqus_identifier": "99809c4b518639fb87d967942ca24e76",
+    "deprecated": false,
+    "order": 21,
+    "sub_selectors": []
+}
