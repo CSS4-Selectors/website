@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "negation-pseudo-class",
+    "name": "Negation pseudo-class",
+    "description": "This pseudo-class is called **negation pseudo-class** which takes a simple [selector list](https://www.w3.org/TR/selectors/#grouping 'W3C: Selector list') as an argument (combination selectors aren't allowed). It matches the elements which are not represented by the passed arguments. Negations may not be nested within itself like this _invalid_ example: `E:not(:not(F))`",
+    "statistics_regex": ":not\\s*\\([^\\)\\,]*[,]+[^\\)]*\\)",
+    "example": ":not(s1, s2, …)",
+    "example_description": "In this example all links are going to be selected which have no `rel` attribute with the attribute value `external` or `nofollow`. So you could style external or nofollow (marked) links different than regular ones.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": "10.1",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": "9.3",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "PjrgXL",
+    "caniuse_identifier": "css-not-sel-list",
+    "disqus_identifier": "40c9be3469bef9dfc19c84f118f4b785",
+    "deprecated": false,
+    "order": 12,
+    "sub_selectors": []
+}

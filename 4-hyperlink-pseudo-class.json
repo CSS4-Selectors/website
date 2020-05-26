@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "hyperlink-pseudo-class",
+    "name": "Hyperlink pseudo-class",
+    "description": "This **hyperlink action pseudo-class** will match elements that acts as the source anchors of hyperlinks. It acts as an alias for `:link` and `:visited`.",
+    "statistics_regex": ":any-link",
+    "example": ":any-link",
+    "example_description": "When the link acts as source anchor it will get a blue background in this example.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": "50",
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": "50",
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "LLKvXQ",
+    "caniuse_identifier": false,
+    "disqus_identifier": "ace1edd10437a0576c0f534b38a09864",
+    "deprecated": false,
+    "order": 6,
+    "sub_selectors": []
+}

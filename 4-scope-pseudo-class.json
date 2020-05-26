@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "scope-pseudo-class",
+    "name": "Scope pseudo-class",
+    "description": "This pseudo-class is called **scope pseudo-class** and represents any element that is in the contextual reference element set. If the contextual reference element set is empty, `:scope` is equivalent to `:root`.",
+    "statistics_regex": ":scope",
+    "example": ":scope",
+    "example_description": "In this example the `:scope` is equivalent to `:root` and will select the `<html>` element. The scoped style will be applied to its parent element (as reference) too.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "20",
+            "Firefox": "21",
+            "Safari": "7",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": "15"
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": "25",
+            "Safari": "7",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "gRNyqE",
+    "caniuse_identifier": false,
+    "disqus_identifier": "735f2d4f7482ab2d7a2a9f51cb9e228c",
+    "deprecated": false,
+    "order": 19,
+    "sub_selectors": []
+}

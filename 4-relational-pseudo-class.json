@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "relational-pseudo-class",
+    "name": "Relational pseudo-class",
+    "description": "The **relational** pseudo-class represents elements whose relative scope selector matches when evaluated absolute.",
+    "statistics_regex": ":has\\s*\\(",
+    "example": ":has",
+    "example_description": "The mentioned example applies a blue background color to the header element with `<h1>` sub elements.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "dRBLaK",
+    "caniuse_identifier": "css-has",
+    "disqus_identifier": "24747942b40457e6fff047286286f7a3",
+    "deprecated": false,
+    "order": 18,
+    "sub_selectors": []
+}

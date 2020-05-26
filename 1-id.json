@@ -1,0 +1,32 @@
+{
+    "selector_version": 1,
+    "slug": "id",
+    "name": "ID",
+    "description": "This **ID selector** is selecting (none or) one element that has a given `id` attribute; because the element with the ID has to be unique.",
+    "example": "#elementID",
+    "example_description": "This example will add a black border around the `<div>` with the `#header` ID.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "2.0"
+        },
+        "Mobile": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "2.0"
+        }
+    },
+    "codepen_identifier": "QgXPjo",
+    "caniuse_identifier": false,
+    "disqus_identifier": "a14da0c4b7f37031a0aebc03dfbd2505",
+    "deprecated": false,
+    "order": 4,
+    "sub_selectors": []
+}

@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "blank-pseudo-class",
+    "name": "Blank pseudo-class",
+    "description": "This `blank` pseudo-class behaves like [`:empty`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#empty 'CSS3: Structural pseudo class :empty') but additionally it will match elements that contain whitespace.",
+    "statistics_regex": ":blank",
+    "example": ":blank",
+    "example_description": "In this example just the second paragraph will get matched as it consists of whitespace as content.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "vZqMaa",
+    "caniuse_identifier": false,
+    "disqus_identifier": "b220d6215db0daff00ec455b628712c8",
+    "deprecated": false,
+    "order": 2,
+    "sub_selectors": []
+}

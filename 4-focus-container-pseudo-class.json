@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "focus-container-pseudo-class",
+    "name": "Focus container pseudo-class",
+    "description": "The **focus container** pseudo-class acts like `:focus` and additionally matching elements whose descendants in the flat tree have received focus too.",
+    "statistics_regex": ":focus-within",
+    "example": ":focus-within",
+    "example_description": "After focusing the input the parent `form` should have a yellow background.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "60",
+            "Firefox": "52",
+            "Safari": "10.1",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": "47"
+        },
+        "Mobile": {
+            "Chrome": "60",
+            "Firefox": "52",
+            "Safari": "10.3",
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": "47"
+        }
+    },
+    "codepen_identifier": "RMdWGd",
+    "caniuse_identifier": false,
+    "disqus_identifier": "87d19c3ae2abdf88ee1a28968e0c7dce",
+    "deprecated": false,
+    "order": 24,
+    "sub_selectors": []
+}

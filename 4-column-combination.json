@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "column-combination",
+    "name": "Column combination",
+    "description": "The combination selector **column** represents the relationship (based only on the semantics of the document language) of a column element and a cell element which belongs to the column.",
+    "statistics_regex": "\\|\\|",
+    "example": "E || F",
+    "example_description": "The mentioned example would set the `background-color` of 3, 5 and 7 to blue.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "gRNyjZ",
+    "caniuse_identifier": false,
+    "disqus_identifier": "7e990cc9d5036b1d2510ee3f1cf190a3",
+    "deprecated": false,
+    "order": 27,
+    "sub_selectors": []
+}

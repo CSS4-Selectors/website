@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "local-link-pseudo-class",
+    "name": "Local link pseudo-class",
+    "description": "This pseudo-class is called **local link pseudo-class** and just matches links whose target URL matches the links own document URL.",
+    "statistics_regex": ":local-link",
+    "example": ":local-link",
+    "example_description": "All links inside the `nav` element targeting the same URL like the document URL will be red.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "XgLQoM",
+    "caniuse_identifier": false,
+    "disqus_identifier": "13f6a6dadc4bc66f1a7d8cbadf5beb3f",
+    "deprecated": false,
+    "order": 8,
+    "sub_selectors": []
+}

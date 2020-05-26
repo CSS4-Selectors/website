@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "time-dimensional-pseudo-class",
+    "name": "Time-dimensional pseudo-class",
+    "description": "This pseudo-class is called **time-dimensional** and will select the time-dimensional relative element like during a speech rendering or during the display of [HTML5 video subtitles](https://gingertech.net/2008/12/12/attaching-subtitles-to-html5-video/ 'Attaching subtitles to HTML5 video'). All these selectors are similar to [`:is()`](https://css4-selectors.com/selector/css4/matches-any-pseudo-class/ 'CSS4: Matches Any Pseudo Class'), while the `:current` selector accepts additionally a simple selector list as argument. The difference between these 3 pseudo-classes is that `:past` will select all previous siblings of the `:current` element, self-explanatory that `:future` is for all next siblings.",
+    "statistics_regex": "(:current|:past|:future)",
+    "example": ":current / :past / :future",
+    "example_description": "These selector rules will highlight the current read aloud speech with a yellow background and the previous and next siblings will be hidden.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "JJQVzM",
+    "caniuse_identifier": false,
+    "disqus_identifier": "4844e7c77c1c55b07a53d393a7e63150",
+    "deprecated": false,
+    "order": 22,
+    "sub_selectors": []
+}

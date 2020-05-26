@@ -1,0 +1,32 @@
+{
+    "selector_version": 1,
+    "slug": "descendant-combination",
+    "name": "Descendant combination",
+    "description": "The **descendant combination selector** selects every element with the type of e.g. `F` which has as parent an element with the element type of `E`.\n[info]CSS4 introduced a new, non-whitespace version of the [`descendant combination selector`](https://css4-selectors.com/selector/css4/descendant-combination/ 'CSS4: Descendant Combination').[/info]",
+    "example": "E F",
+    "example_description": "This example will add a green `background-color` with a white `color` to every `<span>` which has a `<div>` as parent.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "2.0"
+        },
+        "Mobile": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.0",
+            "Edge": "12.0",
+            "Internet Explorer": "3.0",
+            "Opera": "2.0"
+        }
+    },
+    "codepen_identifier": "zzVXxv",
+    "caniuse_identifier": false,
+    "disqus_identifier": "6a54e393d5ac364918a73d2f3e2be7d6",
+    "deprecated": false,
+    "order": 2,
+    "sub_selectors": []
+}

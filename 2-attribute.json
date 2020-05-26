@@ -1,0 +1,88 @@
+{
+    "selector_version": 2,
+    "slug": "attribute",
+    "name": "Attribute",
+    "description": "These **attribute selectors** allows selecting matching strings in the value of an attribute.\n[info]These are the CSS2 selectors but there are also new attribute selectors in [`CSS3`](https://css4-selectors.com/selector/css3/attribute/ 'CSS3: Attribute').[/info]",
+    "example": "[foobar] / [attribute='value'] / [foo~='bar'] / [foo|='en']",
+    "example_description": false,
+    "browser_support": {},
+    "codepen_identifier": false,
+    "caniuse_identifier": false,
+    "disqus_identifier": "1a705d3b75ec69acdb35b61de08402ea",
+    "deprecated": false,
+    "order": 6,
+    "sub_selectors": [
+        {
+            "name": "Occurs",
+            "description": "This attribute selector matches any element who has such a given attribute.",
+            "example_description": "All elements which have an `title` attribute will selected and get a black bottom border.",
+            "browser_support": {
+                "Desktop": {
+                    "Chrome": "1.0",
+                    "Firefox": "1.0",
+                    "Safari": "1.0",
+                    "Edge": "12.0",
+                    "Internet Explorer": "7.0",
+                    "Opera": "6.0"
+                },
+                "Mobile": {
+                    "Chrome": "1.0",
+                    "Firefox": "1.0",
+                    "Safari": "1.0",
+                    "Edge": "12.0",
+                    "Internet Explorer": "7.0",
+                    "Opera": "2.0"
+                }
+            },
+            "codepen_identifier": "GEbLqd"
+        },
+        {
+            "name": "Exactly",
+            "description": "This attribute selector matches any element which attribute value is exactly the same as specified via CSS.",
+            "example_description": "All elements which have an `lang` attribute to `en` will get a black bottom border.",
+            "browser_support": {
+                "Desktop": {
+                    "Chrome": "1.0",
+                    "Firefox": "1.0",
+                    "Safari": "1.0",
+                    "Edge": "12.0",
+                    "Internet Explorer": "7.0",
+                    "Opera": "6.0"
+                }
+            },
+            "codepen_identifier": "awgxpB"
+        },
+        {
+            "name": "Whitespace",
+            "description": "This attribute selector matches elements which whitespace-separated attribute values are the same as specified.",
+            "example_description": "All elements which have an `class` attribute with an `alert` class (separated by whitespace(s)) will get a red background.",
+            "browser_support": {
+                "Desktop": {
+                    "Chrome": "1.0",
+                    "Firefox": "1.0",
+                    "Safari": "1.0",
+                    "Edge": "12.0",
+                    "Internet Explorer": "7.0",
+                    "Opera": "6.0"
+                }
+            },
+            "codepen_identifier": "YQoMNY"
+        },
+        {
+            "name": "Hypen",
+            "description": "This attribute selector selects all elements which hyphen-separated attribute values are the same.",
+            "example_description": "All elements that have an English - `en` - attribute which is or could be separated by hypens will get a blue border.",
+            "browser_support": {
+                "Desktop": {
+                    "Chrome": "1.0",
+                    "Firefox": "1.0",
+                    "Safari": "1.0",
+                    "Edge": "12.0",
+                    "Internet Explorer": "7.0",
+                    "Opera": "6.0"
+                }
+            },
+            "codepen_identifier": "EXBJWg"
+        }
+    ]
+}

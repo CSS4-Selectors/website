@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "focus-indicated-pseudo-class",
+    "name": "Focus indicated pseudo-class",
+    "description": "This pseudo-class is called **focus-indicated pseudo-class** and matches every element which matches [`:focus`](https://css4-selectors.com/selector/css2/user-action-pseudo-class/#focus) and the browser decides if the focus should be made evident on the matched element.",
+    "statistics_regex": ":focus-visible",
+    "example": ":focus-visible",
+    "example_description": "In this example the input will have a blue `border-color` when focused since inputs usually have browser based focus indicators.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "WzmQrQ",
+    "caniuse_identifier": false,
+    "disqus_identifier": "411f2d4f7482ab2d7a2a9f51cb9e228d",
+    "deprecated": false,
+    "order": 25,
+    "sub_selectors": []
+}

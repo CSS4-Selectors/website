@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "range-pseudo-class",
+    "name": "Range pseudo-class",
+    "description": "The pseudo-class **validity** is the selector for elements with range limitations. `:in-range` would match the elements with a value inside the specified range while `:out-of-range` would match the elements which are outside the given range.",
+    "statistics_regex": "(:in-range|:out-of-range)",
+    "example": ":in-range / :out-of-range",
+    "example_description": "The mentioned example would set the `border-color` to `red` if the value is out-of-range, otherwise the element is going to have a green border.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "10.0",
+            "Firefox": "29.0",
+            "Safari": "5.1",
+            "Edge": "13.0",
+            "Internet Explorer": false,
+            "Opera": "10.1"
+        },
+        "Mobile": {
+            "Chrome": "2.3",
+            "Firefox": "29.0",
+            "Safari": "5.1",
+            "Edge": "13.0",
+            "Internet Explorer": false,
+            "Opera": "12.0"
+        }
+    },
+    "codepen_identifier": "LLKvad",
+    "caniuse_identifier": "css-in-out-of-range",
+    "disqus_identifier": "09f1f86d1e9178695788f06fe2a41bab",
+    "deprecated": false,
+    "order": 20,
+    "sub_selectors": []
+}

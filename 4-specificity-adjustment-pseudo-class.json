@@ -1,0 +1,33 @@
+{
+    "selector_version": 4,
+    "slug": "specificity-adjustment-pseudo-class",
+    "name": "Specificity-adjustment pseudo-class",
+    "description": "Similar to [matches-any](https://css4-selectors.com/selector/css4/matches-any-pseudo-class/ 'CSS4: Matches Any Pseudo Class') this **specificity-adjustment** pseudo-class represents an element that is represented by its arguments (as selector list) just with a specificity of zero. This is helpful whenever a general matching is used but simple overwrites should still be possible.",
+    "statistics_regex": ":where\\s*\\(",
+    "example": ":where(s1, s2, …)",
+    "example_description": "All inputs in this example should have a black background (except on focus) with a specificity of zero which means `form input` would already overwrite the selector due to a higher specificity.",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        },
+        "Mobile": {
+            "Chrome": false,
+            "Firefox": false,
+            "Safari": false,
+            "Edge": false,
+            "Internet Explorer": false,
+            "Opera": false
+        }
+    },
+    "codepen_identifier": "oqmdmY",
+    "caniuse_identifier": false,
+    "disqus_identifier": "2e35f577e7a4e3b12089c1e6093634b3",
+    "deprecated": false,
+    "order": 10,
+    "sub_selectors": []
+}

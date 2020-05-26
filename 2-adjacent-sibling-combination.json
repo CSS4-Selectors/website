@@ -1,0 +1,24 @@
+{
+    "selector_version": 2,
+    "slug": "adjacent-sibling-combination",
+    "name": "Adjacent sibling combination",
+    "description": "This **adjacent sibling combination selector** will only match adjacent siblings of a specified element, that means elements must have the same parent element and must have to follow directly after the specified element.",
+    "example": "E + F",
+    "example_description": "The first `<p>` will be red because it's following directly the `<h3>` element, the other `<p>`'s won't be red because the don't immediately come after the heading (at the same level).",
+    "browser_support": {
+        "Desktop": {
+            "Chrome": "1.0",
+            "Firefox": "1.0",
+            "Safari": "1.3",
+            "Edge": "12.0",
+            "Internet Explorer": "7.0",
+            "Opera": "9.5"
+        }
+    },
+    "codepen_identifier": "PjrgZa",
+    "caniuse_identifier": false,
+    "disqus_identifier": "6be1b2ecdf89c9717e2cef8e47610e19",
+    "deprecated": false,
+    "order": 7,
+    "sub_selectors": []
+}
