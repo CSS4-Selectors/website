@@ -2,10 +2,10 @@
     "selector_version": 4,
     "slug": "blank-pseudo-class",
     "name": "Blank pseudo-class",
-    "description": "This `blank` pseudo-class behaves like [`:empty`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#empty 'CSS3: Structural pseudo class :empty') but additionally it will match elements that contain whitespace.",
+    "description": "This `blank` pseudo-class selects user inputs without any content. If you are looking to match empty elements, [`:empty`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#empty 'CSS3: Structural pseudo class :empty') is the corresponding selector.",
     "statistics_regex": ":blank",
     "example": ":blank",
-    "example_description": "In this example just the second paragraph will get matched as it consists of whitespace as content.",
+    "example_description": "In this example just the second textarea and the second input will get matched as it has no content.",
     "browser_support": {
         "Desktop": {
             "Chrome": false,
@@ -25,7 +25,7 @@
         }
     },
     "codepen_identifier": "vZqMaa",
-    "caniuse_identifier": false,
+    "caniuse_identifier": "mdn-css_selectors_blank",
     "disqus_identifier": "b220d6215db0daff00ec455b628712c8",
     "deprecated": false,
     "order": 2,
