@@ -2,9 +2,9 @@
     "selector_version": 3,
     "slug": "general-sibling-combinator",
     "name": "General sibling combinator",
-    "description": "The **general sibling combinator** selects all siblings of the used element, but just occurs of siblings after the element will be selected.",
+    "description": "The **general sibling combinator** selects all siblings `F` of the specified element `E`, but only those siblings that occur **after** the element `E` in the DOM tree will be selected.",
     "example": "E ~ F",
-    "example_description": "This example will add a gray border to the left to all `p`'s which are siblings of `<h1>`.",
+    "example_description": "This example will add a gray border-left to all `p`'s which are siblings of `<h1>`.",
     "browser_support": {
         "Desktop": {
             "Chrome": "1.0",
