@@ -46,7 +46,7 @@
         },
         {
             "name": "Contains",
-            "description": "The contains attribute selector matches any element whose attribute value occurs at least one time.",
+            "description": "The contains attribute selector matches any element whose attribute value contains the given value at least once.",
             "example_description": "Every element which contains the value `example` get a dashed blue border.",
             "browser_support": {
                 "Desktop": {
