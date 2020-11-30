@@ -15,7 +15,7 @@
         {
             "name": "Root",
             "description": "The `:root` pseudo-class matches the root element of a document. In HTML documents this is always the `<html>` element.",
-            "example_description": "In this example will the root element `<html>` get a gray `background-color`.",
+            "example_description": "In this example the root element `<html>` will get a gray `background-color`.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -31,7 +31,7 @@
         {
             "name": "Empty",
             "description": "The `:empty` pseudo-class matches any element that has no children. So its data length is greater than 0 whereas comments and processing instructions elements are ignored.",
-            "example_description": "Here, in this example, will all empty elements have a red, solid border.",
+            "example_description": "Here, in this example, all empty elements will have a red, solid border.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -46,7 +46,7 @@
         },
         {
             "name": "Last-Child",
-            "description": "The `:last-child` pseudo-class will match the last child element of of it's parent element. It's also the same as `:nth-last-child(1)`.\n[info]This pseudo-class is part of the CSS3 specification while its \"opposite\" selector [`:first-child`](https://css4-selectors.com/selector/css2/structural-pseudo-class/ 'CSS2: Structural pseudo class') is part of CSS2.[/info]",
+            "description": "The `:last-child` pseudo-class will match the last child element of of its parent element. It's also the same as `:nth-last-child(1)`.\n[info]This pseudo-class is part of the CSS3 specification while its \"opposite\" selector [`:first-child`](https://css4-selectors.com/selector/css2/structural-pseudo-class/ 'CSS2: Structural pseudo class') is part of CSS2.[/info]",
             "example_description": "This example code will select just the last element in the list of children of its parent element.",
             "browser_support": {
                 "Desktop": {
@@ -78,8 +78,8 @@
         },
         {
             "name": "First-Of-Type",
-            "description": "The `:first-of-type` pseudo-class is going to match the first element of the (optional specified) type. It's also the same as `:nth-of-type(1)`.",
-            "example_description": "This example code will select just the first `<span>` element in the list of children of its parent element.",
+            "description": "The `:first-of-type` pseudo-class is going to match the first element of the (optionally specified) type. It's also the same as `:nth-of-type(1)`.",
+            "example_description": "This example code will select just the first `<span>` element in the list of children of its parent element and give it a gray background.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -94,8 +94,8 @@
         },
         {
             "name": "Last-Of-Type",
-            "description": "The `:last-of-type` pseudo-class is the opposite of [`:first-of-type`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#first-of-type-class 'CSS3: Structural pseudo class') and is going to match the last element of the (optional specified) type. It's also the same as `:nth-last-of-type(1)`.",
-            "example_description": "This example code will select only the last `<span>` element of its parent element.",
+            "description": "The `:last-of-type` pseudo-class is the opposite of [`:first-of-type`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#first-of-type-class 'CSS3: Structural pseudo class') and is going to match the last element of the (optionally specified) type. It's also the same as `:nth-last-of-type(1)`.",
+            "example_description": "This example code will select only the last `<span>` element of its parent element and give it a gray background.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -111,7 +111,7 @@
         {
             "name": "Only-Of-Type",
             "description": "The `:only-of-type` pseudo-class is going to match only elements which are the only child elements of its type.",
-            "example_description": "This example is going to select only the first `<span>` because it's the only element which is of that element type.",
+            "example_description": "This example is going to select only the first `<span>` and give it a gray background because it's the only element which is of that element type.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -126,8 +126,8 @@
         },
         {
             "name": "Nth-Child",
-            "description": "The `:nth-child()` pseudo-class will split frist the elements into groups of `a` elements and then select any child element that is the `b`th child.",
-            "example_description": "This example will represent every odd `<p>` and set a gray background.",
+            "description": "The `:nth-child()` pseudo-class will first split the elements into groups of `a` elements and then select any child element that is the `b`th child.",
+            "example_description": "This example will select every odd `<p>` and set a gray background.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -143,7 +143,7 @@
         {
             "name": "Nth-Last-Child",
             "description": "The `:nth-last-child()` pseudo-class behaves like [`:nth-child`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-child-class 'CSS3: Structural pseudo class') but with the difference that the siblings after it in the document tree will be selected.",
-            "example_description": "This example will represent every even `<p>` and set a gray background.",
+            "example_description": "This example will select every even `<p>` and set a gray background.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -159,7 +159,7 @@
         {
             "name": "Nth-Of-Type",
             "description": "The `:nth-of-type()` pseudo-class behaves like [`:nth-child`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-child-class 'CSS3: Structural pseudo class') but with the difference that only elements with the same element name will be selected.",
-            "example_description": "This example will represent every odd only `<p>` element and set a gray background.",
+            "example_description": "This example will select every odd only `<p>` element and set a gray background.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
@@ -175,7 +175,7 @@
         {
             "name": "Nth-Last-Of-Type",
             "description": "The `:nth-of-type()` pseudo-class behaves like [`:nth-of-type`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-of-type-class 'CSS3: Structural pseudo class') but with the difference that the specified element siblings after it in the document tree will be selected.",
-            "example_description": "This example will represent every even only `<p>` element and set a gray background.",
+            "example_description": "This example will select every even only `<p>` element and set a gray background.",
             "browser_support": {
                 "Desktop": {
                     "Chrome": "1.0",
