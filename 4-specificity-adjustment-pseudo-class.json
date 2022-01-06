@@ -8,20 +8,20 @@
     "example_description": "All inputs in this example should have a black background (except on focus) with a specificity of zero which means `form input` would already overwrite the selector due to a higher specificity.",
     "browser_support": {
         "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
+            "Chrome": "88",
+            "Firefox": "78",
+            "Safari": "14",
+            "Edge": "88",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "74"
         },
         "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
+            "Chrome": "88",
+            "Firefox": "79",
+            "Safari": "14",
             "Edge": false,
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "64"
         }
     },
     "codepen_identifier": "oqmdmY",

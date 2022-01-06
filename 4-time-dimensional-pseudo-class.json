@@ -10,7 +10,7 @@
         "Desktop": {
             "Chrome": false,
             "Firefox": false,
-            "Safari": false,
+            "Safari": "7",
             "Edge": false,
             "Internet Explorer": false,
             "Opera": false
@@ -18,7 +18,7 @@
         "Mobile": {
             "Chrome": false,
             "Firefox": false,
-            "Safari": false,
+            "Safari": "7",
             "Edge": false,
             "Internet Explorer": false,
             "Opera": false

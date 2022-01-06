@@ -11,7 +11,7 @@
             "Chrome": "49",
             "Firefox": "47",
             "Safari": "9",
-            "Edge": false,
+            "Edge": "79",
             "Internet Explorer": false,
             "Opera": "36"
         },
@@ -19,7 +19,7 @@
             "Chrome": "59",
             "Firefox": "54",
             "Safari": "9.2",
-            "Edge": false,
+            "Edge": "79",
             "Internet Explorer": false,
             "Opera": "37"
         }

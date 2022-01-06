@@ -16,7 +16,7 @@
             "Opera": "10"
         },
         "Mobile": {
-            "Android": false,
+            "Android": "18",
             "Firefox": "4",
             "Safari": "5",
             "Edge": false,

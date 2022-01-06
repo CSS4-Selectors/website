@@ -9,7 +9,7 @@
     "browser_support": {
         "Desktop": {
             "Chrome": false,
-            "Firefox": false,
+            "Firefox": "88",
             "Safari": false,
             "Edge": false,
             "Internet Explorer": false,
@@ -17,7 +17,7 @@
         },
         "Mobile": {
             "Chrome": false,
-            "Firefox": false,
+            "Firefox": "88",
             "Safari": false,
             "Edge": false,
             "Internet Explorer": false,

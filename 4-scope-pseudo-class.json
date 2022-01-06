@@ -8,20 +8,20 @@
     "example_description": "In this example the `:scope` is equivalent to `:root` and will select the `<html>` element. The scoped style will be applied to its parent element (as reference) too.",
     "browser_support": {
         "Desktop": {
-            "Chrome": "20",
+            "Chrome": "27",
             "Firefox": "21",
             "Safari": "7",
-            "Edge": false,
+            "Edge": "79",
             "Internet Explorer": false,
             "Opera": "15"
         },
         "Mobile": {
-            "Chrome": false,
+            "Chrome": "27",
             "Firefox": "25",
             "Safari": "7",
             "Edge": false,
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "15"
         }
     },
     "codepen_identifier": "gRNyqE",

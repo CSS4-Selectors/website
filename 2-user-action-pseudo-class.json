@@ -26,12 +26,12 @@
                     "Opera": "4.0"
                 },
                 "Mobile": {
-                    "Chrome": false,
-                    "Firefox": false,
-                    "Safari": false,
-                    "Edge": false,
+                    "Chrome": "1.0",
+                    "Firefox": "1.0",
+                    "Safari": "2.0",
+                    "Edge": "12.0",
                     "Internet Explorer": false,
-                    "Opera": false
+                    "Opera": "4.0"
                 }
             },
             "codepen_identifier": "QgXPgX"
@@ -53,7 +53,7 @@
                     "Chrome": "1.0",
                     "Firefox": "4.0",
                     "Safari": "2.0",
-                    "Edge": false,
+                    "Edge": "12.0",
                     "Internet Explorer": false,
                     "Opera": "2.0"
                 }

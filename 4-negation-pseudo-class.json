@@ -8,16 +8,16 @@
     "example_description": "In this example all links are going to be selected which have no `rel` attribute with the attribute value `external` or `nofollow`. So you could style external or nofollow (marked) links different than regular ones.",
     "browser_support": {
         "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
+            "Chrome": "88",
+            "Firefox": "84",
             "Safari": "10.1",
-            "Edge": false,
+            "Edge": "88",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "74"
         },
         "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
+            "Chrome": "88",
+            "Firefox": "84",
             "Safari": "9.3",
             "Edge": false,
             "Internet Explorer": false,

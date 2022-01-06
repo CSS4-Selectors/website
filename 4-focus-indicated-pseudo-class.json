@@ -8,20 +8,20 @@
     "example_description": "In this example the input will have a blue `border-color` when focused since inputs usually have browser based focus indicators.",
     "browser_support": {
         "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
+            "Chrome": "86",
+            "Firefox": "85",
             "Safari": false,
-            "Edge": false,
+            "Edge": "86",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "72"
         },
         "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
+            "Chrome": "86",
+            "Firefox": "85",
             "Safari": false,
-            "Edge": false,
+            "Edge": "86",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "72"
         }
     },
     "codepen_identifier": "WzmQrQ",

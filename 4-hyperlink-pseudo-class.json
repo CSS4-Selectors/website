@@ -8,20 +8,20 @@
     "example_description": "When the link acts as source anchor it will get a blue background in this example.",
     "browser_support": {
         "Desktop": {
-            "Chrome": false,
+            "Chrome": "65",
             "Firefox": "50",
-            "Safari": false,
-            "Edge": false,
+            "Safari": "9",
+            "Edge": "79",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "52"
         },
         "Mobile": {
-            "Chrome": false,
+            "Chrome": "65",
             "Firefox": "50",
-            "Safari": false,
-            "Edge": false,
+            "Safari": "9",
+            "Edge": "79",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "52"
         }
     },
     "codepen_identifier": "LLKvXQ",
