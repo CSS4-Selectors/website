@@ -4,7 +4,7 @@
     "name": "Relational pseudo-class",
     "description": "The **relational** pseudo-class represents elements whose relative scope selector matches when evaluated absolute. Currently browser vendors are not required to support this selector in order to conform with the level 4 specification.",
     "statistics_regex": ":has\\s*\\(",
-    "example": ":has",
+    "example": ":has(*)",
     "example_description": "The mentioned example applies a blue background color to the header element with `<h1>` sub elements.",
     "browser_support": {
         "Desktop": {
