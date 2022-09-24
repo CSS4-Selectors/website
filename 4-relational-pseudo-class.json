@@ -8,18 +8,18 @@
     "example_description": "The mentioned example applies a blue background color to the header element with `<h1>` sub elements.",
     "browser_support": {
         "Desktop": {
-            "Chrome": false,
+            "Chrome": "105",
             "Firefox": false,
-            "Safari": false,
-            "Edge": false,
+            "Safari": "15.4",
+            "Edge": "105",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "91"
         },
         "Mobile": {
-            "Chrome": false,
+            "Chrome": "105",
             "Firefox": false,
-            "Safari": false,
-            "Edge": false,
+            "Safari": "15.4",
+            "Edge": "105",
             "Internet Explorer": false,
             "Opera": false
         }
