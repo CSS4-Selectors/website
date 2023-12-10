@@ -4,24 +4,24 @@
     "name": "Structural pseudo-class",
     "description": "The pseudo-class **structural** introduces the `:nth-child()` and `:nth-last-child()` selector which is similar to the [`:nth-child()`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-child 'CSS3: Structural Pseudo Class') in CSS3. The difference is that this selector will match the given selector list composed of their [inclusive siblings](https://dom.spec.whatwg.org/#concept-tree-inclusive-sibling 'WHATWG: DOM Specification').",
     "statistics_regex": ":nth-child\\s*\\((.*)\\s+of\\s+(.*)\\)",
-    "example": ":nth-child()",
+    "example": ":nth-child(1 of s1, s2)",
     "example_description": "Every even list element should have a yellow background color even though some elements are hidden in between. The last `li` should have a green background color.",
     "browser_support": {
         "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
+            "Chrome": "111",
+            "Firefox": "113",
             "Safari": "9",
-            "Edge": false,
+            "Edge": "111",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "98"
         },
         "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
+            "Chrome": "111",
+            "Firefox": "113",
             "Safari": "9",
-            "Edge": false,
+            "Edge": "111",
             "Internet Explorer": false,
-            "Opera": false
+            "Opera": "75"
         }
     },
     "codepen_identifier": "BZgEMg",
