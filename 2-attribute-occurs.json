@@ -1,0 +1,26 @@
+{
+    "uuid": "e26b7628-1d68-4acb-a42f-7fbd4d45a442",
+    "selector_version": 2,
+    "name": "Occurs",
+    "description": "This attribute selector matches any element who has such a given attribute.",
+    "example_description": "All elements which have an `title` attribute will selected and get a black bottom border.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "7.0",
+        "Opera": "6.0"
+    },
+    "browser_support_mobile": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "7.0",
+        "Opera": "2.0"
+    },
+    "nested_in_selector": "1b38e3b6-44b7-42c2-8def-485dd6bc0885",
+    "codepen_identifier": "GEbLqd",
+    "order": 1
+}

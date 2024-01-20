@@ -1,32 +1,32 @@
 {
+    "uuid": "7ba27ec2-3e5b-405f-8972-4800526e5fa5",
     "selector_version": 2,
     "slug": "universal",
     "name": "Universal",
     "description": "The **universal selector** (asterisk symbol) will select every element of any type.",
+    "statistics_regex": null,
     "example": "*",
     "example_description": "Every single element will get zero pixel `margin` and `padding`.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "5.0",
-            "Opera": "5.0"
-        },
-        "Mobile": {
-            "Chrome": "1.0",
-            "Firefox": "4.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "6.0",
-            "Opera": "2.0"
-        }
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "5.0",
+        "Opera": "5.0"
     },
+    "browser_support_mobile": {
+        "Chrome": "1.0",
+        "Firefox": "4.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "6.0",
+        "Opera": "2.0"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "BZgEZv",
     "caniuse_identifier": false,
     "disqus_identifier": "abd7096a184ed9c07b2789ba18d02d48",
     "deprecated": false,
-    "order": 1,
-    "sub_selectors": []
+    "order": 1
 }

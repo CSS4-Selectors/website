@@ -1,0 +1,19 @@
+{
+    "uuid": "5b8dd3d3-5882-48be-9cee-985ec9f346e4",
+    "selector_version": 3,
+    "name": "Last-Child",
+    "description": "The `:last-child` pseudo-class will match the last child element of of its parent element. It's also the same as `:nth-last-child(1)`.\n[info]This pseudo-class is part of the CSS3 specification while its \"opposite\" selector [`:first-child`](https://css4-selectors.com/selector/css2/structural-pseudo-class/ 'CSS2: Structural pseudo class') is part of CSS2.[/info]",
+    "example_description": "This example code will select just the last element in the list of children of its parent element.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.0",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "BZgExb",
+    "order": 3
+}

@@ -1,33 +1,32 @@
 {
+    "uuid": "b288ed75-408e-4a36-a333-e648b199ce25",
     "selector_version": 4,
     "slug": "attribute-case-sensitivity",
     "name": "Attribute case-sensitivity",
-    "description": "The **attribute case-sensitivity** selector is mostly equivalent to the [CSS2 attribute selector](https://css4-selectors.com/selector/css2/attribute/ 'CSS2: Attribute') but with the difference set the case-(in)sensitive within the ASCII range. `i` selects an element using the given attribute value in case-insensitive mode. `s` sets the given attribute value to be case-sensitive. By default the selector is case-sensitive but it depends on the document language.",
+    "description": "The **attribute case-sensitivity** selector is mostly equivalent to the [CSS2 attribute selector](https://css4-selectors.com/selector/css2/attribute/ 'CSS2: Attribute') but with the difference set the case-(in)sensitive within the ASCII range. `i` selects an element using the given attribute value in case-insensitive mode. `s` sets the given attribute value to be case-sensitive. By default, the selector is case-sensitive but it depends on the document language.",
     "statistics_regex": "(\\s+i\\]|\\s+s\\])",
     "example": "[attribute='value' i] / [attribute='value' s]",
-    "example_description": "Here it's possible to select all links which have a href attribute with the exact ending `pdf` but not the value endings `PDF` or `pDf`.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "49",
-            "Firefox": "47",
-            "Safari": "9",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "36"
-        },
-        "Mobile": {
-            "Chrome": "59",
-            "Firefox": "54",
-            "Safari": "9.2",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "37"
-        }
+    "example_description": "Here it's possible to select all links which have an href attribute with the exact ending `pdf` but not the value endings `PDF` or `pDf`.",
+    "browser_support_desktop": {
+        "Chrome": "49",
+        "Firefox": "47",
+        "Safari": "9",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "36"
     },
+    "browser_support_mobile": {
+        "Chrome": "59",
+        "Firefox": "54",
+        "Safari": "9.2",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "37"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "EXBJpm",
     "caniuse_identifier": "css-case-insensitive",
     "disqus_identifier": "ee131d9f036cfc2b2246545afc9eb0b4",
     "deprecated": false,
-    "order": 1,
-    "sub_selectors": []
+    "order": 1
 }

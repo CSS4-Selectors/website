@@ -1,24 +1,24 @@
 {
+    "uuid": "234f126e-50dd-4412-aa4c-0c3815e8c1c2",
     "selector_version": 3,
     "slug": "negation-pseudo-class",
     "name": "Negation pseudo-class",
     "description": "The **negation pseudo-class** takes as an argument a [simple selector list](https://www.w3.org/TR/selectors/#grouping 'W3C: Selector list') (combinations not allowed). It matches an element which is not represented by the passed argument and this negation may not be nested within itself.",
+    "statistics_regex": null,
     "example": ":not(s)",
     "example_description": "All links in the example which have no external rel attribute should be colored in red.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "2.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "9.0",
-            "Opera": "9.5"
-        }
+    "browser_support_desktop": {
+        "Chrome": "2.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
     },
+    "nested_in_selector": null,
     "codepen_identifier": "jwjRxO",
     "caniuse_identifier": false,
     "disqus_identifier": "d6df873368a4add8b83ae2764c981836",
     "deprecated": false,
-    "order": 3,
-    "sub_selectors": []
+    "order": 3
 }

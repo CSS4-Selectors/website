@@ -1,0 +1,19 @@
+{
+    "uuid": "0cc40ee4-ddb4-4b18-ae09-6dafb6068d0d",
+    "selector_version": 3,
+    "name": "Contains",
+    "description": "The contains attribute selector matches any element whose attribute value contains the given value at least once.",
+    "example_description": "Every element which contains the value `example` get a dashed blue border.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "8.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "d5780407-b31c-41e4-ac1f-297cbd4aaacf",
+    "codepen_identifier": "ZydZxW",
+    "order": 3
+}

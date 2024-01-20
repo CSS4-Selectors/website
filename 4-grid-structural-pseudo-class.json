@@ -1,4 +1,5 @@
 {
+    "uuid": "5e26d6c4-89a4-49f0-bcb5-27b8b735a6b5",
     "selector_version": 4,
     "slug": "grid-structural-pseudo-class",
     "name": "Grid-Structural pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":nth(-last)?-col",
     "example": ":nth-col(n) / :nth-last-col(n)",
     "example_description": "`:nth-col()` will set a gray `background-color` to each second column counting from the first column and `:nth-last-col()` will add a green `background-color` to every third column counting from the last column.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "EXBJOX",
     "caniuse_identifier": false,
     "disqus_identifier": "99809c4b518639fb87d967942ca24e76",
     "deprecated": false,
-    "order": 21,
-    "sub_selectors": []
+    "order": 21
 }

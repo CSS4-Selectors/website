@@ -1,24 +1,24 @@
 {
+    "uuid": "e6c424cd-9192-4289-b121-b123223bb3c0",
     "selector_version": 3,
     "slug": "target-pseudo-class",
     "name": "Target pseudo-class",
-    "description": "This pseudo-class is called **target pseudo-class** and represents an element which matches against fragment identifier of the URI. For example an URI is pointing to anchor named `partHelp` like here:\n`https://example.com/test.html#partHelp` the element with the ID `partHelp` will be selected by this selector.",
+    "description": "This pseudo-class is called **target pseudo-class** and represents an element which matches against the fragment identifier of the URI. For example, an URI is pointing to an anchor named `partHelp` like here:\n`https://example.com/test.html#partHelp` the element with the ID `partHelp` will be selected by this selector.",
+    "statistics_regex": null,
     "example": ":target",
     "example_description": "The element with the fragment identifier of the URI will have a red dotted outline border around itself.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "2.0",
-            "Firefox": "1.0",
-            "Safari": "1.3",
-            "Edge": "12.0",
-            "Internet Explorer": "9.0",
-            "Opera": "9.5"
-        }
+    "browser_support_desktop": {
+        "Chrome": "2.0",
+        "Firefox": "1.0",
+        "Safari": "1.3",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
     },
+    "nested_in_selector": null,
     "codepen_identifier": "KqjYBp",
     "caniuse_identifier": false,
     "disqus_identifier": "afb9cc65b650df2f498d4eca9dcea2d8",
     "deprecated": false,
-    "order": 2,
-    "sub_selectors": []
+    "order": 2
 }

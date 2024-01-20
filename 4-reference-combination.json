@@ -1,32 +1,31 @@
 {
+    "uuid": "89cf6c80-c7b3-4311-a71e-dc0a94e8a96d",
     "selector_version": 4,
     "slug": "reference-combination",
     "name": "Reference combination",
     "description": "The **reference combination** selector speaks for itself: It's mapping out association between built up selectors. Between the newly introduced slashes has be a [CSS qualified name](https://www.w3.org/TR/css3-namespace/#css-qnames 'W3C: CSS qualified name') which represents the ID reference between the first (E) and the second (F) element. The reference is valid if the value of the attribute named in the combinator consists of either the ID alone or a hash mark (#) followed by the ID.",
     "example": "E /foo/ F",
     "example_description": "This previous example will add a red border to the input element which is referenced by its label.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "xroeMP",
     "caniuse_identifier": false,
     "disqus_identifier": "15d19c3ae2abdf88ee1a28968e0c7cce",
     "deprecated": true,
-    "order": 29,
-    "sub_selectors": []
+    "order": 29
 }

@@ -1,4 +1,5 @@
 {
+    "uuid": "4aae4d34-25a7-4f3e-b5cf-6d04fe33dd94",
     "selector_version": 4,
     "slug": "optionality-pseudo-class",
     "name": "Optionality pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": "(:required|:optional)",
     "example": ":required / :optional",
     "example_description": "The example adds a gray border to the optional input element and a red border to the required input element.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "8.0",
-            "Firefox": "4.0",
-            "Safari": "5.0",
-            "Edge": "12.0",
-            "Internet Explorer": "10",
-            "Opera": "9.5"
-        },
-        "Mobile": {
-            "Chrome": "59",
-            "Firefox": "4.0",
-            "Safari": "5.0",
-            "Edge": "12.0",
-            "Internet Explorer": "10.0",
-            "Opera": "10.0"
-        }
+    "browser_support_desktop": {
+        "Chrome": "8.0",
+        "Firefox": "4.0",
+        "Safari": "5.0",
+        "Edge": "12.0",
+        "Internet Explorer": "10",
+        "Opera": "9.5"
     },
+    "browser_support_mobile": {
+        "Chrome": "59",
+        "Firefox": "4.0",
+        "Safari": "5.0",
+        "Edge": "12.0",
+        "Internet Explorer": "10.0",
+        "Opera": "10.0"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "BZgEve",
     "caniuse_identifier": "css-optional-pseudo",
     "disqus_identifier": "3263077755a5984531a6250ce9738b37",
     "deprecated": false,
-    "order": 13,
-    "sub_selectors": []
+    "order": 13
 }

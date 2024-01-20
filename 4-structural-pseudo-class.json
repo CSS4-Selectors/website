@@ -1,4 +1,5 @@
 {
+    "uuid": "efbddb47-961d-4b8e-8e8d-13c2ff8e6d3c",
     "selector_version": 4,
     "slug": "structural-pseudo-class",
     "name": "Structural pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":nth-child\\s*\\((.*)\\s+of\\s+(.*)\\)",
     "example": ":nth-child(1 of s1, s2)",
     "example_description": "Every even list element should have a yellow background color even though some elements are hidden in between. The last `li` should have a green background color.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "111",
-            "Firefox": "113",
-            "Safari": "9",
-            "Edge": "111",
-            "Internet Explorer": false,
-            "Opera": "98"
-        },
-        "Mobile": {
-            "Chrome": "111",
-            "Firefox": "113",
-            "Safari": "9",
-            "Edge": "111",
-            "Internet Explorer": false,
-            "Opera": "75"
-        }
+    "browser_support_desktop": {
+        "Chrome": "111",
+        "Firefox": "113",
+        "Safari": "9",
+        "Edge": "111",
+        "Internet Explorer": false,
+        "Opera": "98"
     },
+    "browser_support_mobile": {
+        "Chrome": "111",
+        "Firefox": "113",
+        "Safari": "9",
+        "Edge": "111",
+        "Internet Explorer": false,
+        "Opera": "75"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "BZgEMg",
     "caniuse_identifier": "css-nth-child-of",
     "disqus_identifier": "c434727f292759725c5266a2ec5860ff",
     "deprecated": false,
-    "order": 3,
-    "sub_selectors": []
+    "order": 3
 }

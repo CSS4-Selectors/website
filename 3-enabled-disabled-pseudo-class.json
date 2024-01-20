@@ -1,24 +1,24 @@
 {
+    "uuid": "a576d75e-7640-46ac-9108-c8f0d834e8c3",
     "selector_version": 3,
     "slug": "enabled-disabled-pseudo-class",
     "name": "Enabled and Disabled pseudo-class",
-    "description": "This **enabled and disabled pseudo-classes** matches all enabled or disabled elements. `:disabled` elements are disabled if they can't be activated (selected, clicked, accept text input or accept focus) during `:enabled` represents all focusable, active elements.",
+    "description": "This **enabled and disabled pseudo-classes** match all enabled or disabled elements. `:disabled` elements are disabled if they can't be activated (selected, clicked, accept text input, or accept focus) during `:enabled` represents all focusable, active elements.",
+    "statistics_regex": null,
     "example": ":enabled / :disabled",
     "example_description": "In this example will the enabled (normal state) input element have a green border and the disabled elements a gray border.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "3.0",
-            "Edge": "12.0",
-            "Internet Explorer": "9.0",
-            "Opera": "9.0"
-        }
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "3.0",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.0"
     },
+    "nested_in_selector": null,
     "codepen_identifier": "dRBLmd",
     "caniuse_identifier": false,
     "disqus_identifier": "ca5cda195c3ea13e4a49adea84fe0f52",
     "deprecated": false,
-    "order": 5,
-    "sub_selectors": []
+    "order": 5
 }

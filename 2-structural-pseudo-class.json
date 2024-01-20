@@ -1,24 +1,24 @@
 {
+    "uuid": "b544f6b5-4568-4e3e-99b1-8241f31e9f60",
     "selector_version": 2,
     "slug": "structural-pseudo-class",
     "name": "Structural pseudo-class",
     "description": "This **structural pseudo-class** represents the element which is the first children of its parent.",
+    "statistics_regex": null,
     "example": ":first-child",
     "example_description": "The first `<span>` should be matched so it's red because it's the first children of its parent `<div>`.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "3.0",
-            "Safari": "4",
-            "Edge": "12.0",
-            "Internet Explorer": "7.0",
-            "Opera": "9.5"
-        }
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.0",
+        "Safari": "4",
+        "Edge": "12.0",
+        "Internet Explorer": "7.0",
+        "Opera": "9.5"
     },
+    "nested_in_selector": null,
     "codepen_identifier": "vZqMZR",
     "caniuse_identifier": false,
     "disqus_identifier": "3e1e65f2afce2ab53d4e5f5e4f0dab9e",
     "deprecated": false,
-    "order": 4,
-    "sub_selectors": []
+    "order": 4
 }

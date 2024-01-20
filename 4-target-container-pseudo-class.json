@@ -1,4 +1,5 @@
 {
+    "uuid": "0a0c59b2-2e95-4c2a-bbd8-4c682992c724",
     "selector_version": 4,
     "slug": "target-container-pseudo-class",
     "name": "Target container pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":target-within",
     "example": ":target-within",
     "example_description": "After clicking on the anchor jump link the article with its nested anchor element matching the target will get a grey background.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "aYXPwe",
     "caniuse_identifier": "mdn-css_selectors_target-within",
     "disqus_identifier": "44d19c3ae2abdf88ee1a28968e0c7cce",
     "deprecated": false,
-    "order": 26,
-    "sub_selectors": []
+    "order": 26
 }

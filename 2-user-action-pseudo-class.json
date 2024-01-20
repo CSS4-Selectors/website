@@ -1,64 +1,18 @@
 {
+    "uuid": "7bfa9a6c-ea47-4ab6-876f-a5410b6ea109",
     "selector_version": 2,
     "slug": "user-action-pseudo-class",
     "name": "User action pseudo-class",
     "description": "The **user action pseudo-classes** `:hover` and `:focus` allows to visualize if the user hovers oder focuses an element.",
+    "statistics_regex": null,
     "example": ":hover / :focus",
     "example_description": false,
-    "browser_support": {},
+    "browser_support_desktop": {},
+    "browser_support_mobile": {},
+    "nested_in_selector": null,
     "codepen_identifier": false,
     "caniuse_identifier": false,
     "disqus_identifier": "7ab616fcaa743564079f8a4ae780ede4",
     "deprecated": false,
-    "order": 3,
-    "sub_selectors": [
-        {
-            "name": "Hover",
-            "description": "The `:hover` selector matches if the user with a pointing device hovers over an element.",
-            "example_description": "The link will get a gray dashed outline border if the user hovers the link.",
-            "browser_support": {
-                "Desktop": {
-                    "Chrome": "1.0",
-                    "Firefox": "1.0",
-                    "Safari": "2.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": "4.0",
-                    "Opera": "4.0"
-                },
-                "Mobile": {
-                    "Chrome": "1.0",
-                    "Firefox": "1.0",
-                    "Safari": "2.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": false,
-                    "Opera": "4.0"
-                }
-            },
-            "codepen_identifier": "QgXPgX"
-        },
-        {
-            "name": "Focus",
-            "description": "The `:focus` selector will match any element which has currently keyboard or input focus.",
-            "example_description": "The link will change his color to red if the link is focused.",
-            "browser_support": {
-                "Desktop": {
-                    "Chrome": "1.0",
-                    "Firefox": "1.0",
-                    "Safari": "2.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": "4.0",
-                    "Opera": "4.0"
-                },
-                "Mobile": {
-                    "Chrome": "1.0",
-                    "Firefox": "4.0",
-                    "Safari": "2.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": false,
-                    "Opera": "2.0"
-                }
-            },
-            "codepen_identifier": "eRwoEJ"
-        }
-    ]
+    "order": 3
 }

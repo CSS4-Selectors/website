@@ -1,32 +1,34 @@
 {
+    "uuid": "abb52343-4c9c-4adb-ae5a-fbce628fbb10",
     "selector_version": 1,
     "slug": "class",
     "name": "Class",
     "description": "This **class selector** will match every element which has a certain class.\n[info]This selector is the same as the more complicate [`CSS2 attribute selector (Whitespace)`](https://css4-selectors.com/selector/css2/attribute/#whitespace-class 'CSS2: Attribute').[/info]",
+    "statistics_regex": null,
     "example": ".class",
     "example_description": "In this example will every element with the class of `alert` will get a red border with an pink background.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "3.0",
-            "Opera": "2.0"
-        },
-        "Mobile": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "3.0",
-            "Opera": "2.0"
-        }
+    "browser_support_desktop":
+    {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "3.0",
+        "Opera": "2.0"
     },
+    "browser_support_mobile":
+    {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "3.0",
+        "Opera": "2.0"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "qjzvza",
     "caniuse_identifier": false,
     "disqus_identifier": "2e1818976a5cf9598047c6c342f4ce76",
     "deprecated": false,
-    "order": 3,
-    "sub_selectors": []
+    "order": 3
 }

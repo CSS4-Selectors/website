@@ -1,4 +1,5 @@
 {
+    "uuid": "3c56fa37-2ec9-48ac-ad7f-a565f5bf0838",
     "selector_version": 4,
     "slug": "dir-pseudo-class",
     "name": "Dir pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":dir\\s*\\(",
     "example": ":dir(ltr)",
     "example_description": "While elements with `ltr` will have a red color, `rtl` elements will have a blue color.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": "17",
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": "49",
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": "17",
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": "49",
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "EXBJem",
     "caniuse_identifier": "css-dir-pseudo",
     "disqus_identifier": "f1d6f9db825ec1298030e11a6921306b",
     "deprecated": false,
-    "order": 4,
-    "sub_selectors": []
+    "order": 4
 }

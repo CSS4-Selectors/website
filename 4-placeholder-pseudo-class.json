@@ -1,4 +1,5 @@
 {
+    "uuid": "cdbabff1-02db-432f-8ab1-5396d6e9e41b",
     "selector_version": 4,
     "slug": "placeholder-pseudo-class",
     "name": "Placeholder pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":placeholder-shown",
     "example": ":placeholder-shown",
     "example_description": "In this example the placeholder text will be green; as soon as the input gets entered, the default color for text will be used.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1",
-            "Firefox": "4",
-            "Safari": "5",
-            "Edge": "12.0",
-            "Internet Explorer": "10",
-            "Opera": "15"
-        },
-        "Mobile": {
-            "Chrome": "2.1",
-            "Firefox": "33",
-            "Safari": "4.3",
-            "Edge": "12.0",
-            "Internet Explorer": "10",
-            "Opera": "24"
-        }
+    "browser_support_desktop": {
+        "Chrome": "1",
+        "Firefox": "4",
+        "Safari": "5",
+        "Edge": "12.0",
+        "Internet Explorer": "10",
+        "Opera": "15"
     },
+    "browser_support_mobile": {
+        "Chrome": "2.1",
+        "Firefox": "33",
+        "Safari": "4.3",
+        "Edge": "12.0",
+        "Internet Explorer": "10",
+        "Opera": "24"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "QgXPYw",
     "caniuse_identifier": "css-placeholder-shown",
     "disqus_identifier": "36d031edfefd7188126de8120f2d032d",
     "deprecated": false,
-    "order": 14,
-    "sub_selectors": []
+    "order": 14
 }

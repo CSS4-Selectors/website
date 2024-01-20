@@ -1,4 +1,5 @@
 {
+    "uuid": "b8b0c8d8-78fc-46a1-8aae-cbaeace036c5",
     "selector_version": 4,
     "slug": "scope-pseudo-class",
     "name": "Scope pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":scope",
     "example": ":scope",
     "example_description": "In this example the `:scope` is equivalent to `:root` and will select the `<html>` element. The scoped style will be applied to its parent element (as reference) too.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "27",
-            "Firefox": "21",
-            "Safari": "7",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "15"
-        },
-        "Mobile": {
-            "Chrome": "27",
-            "Firefox": "25",
-            "Safari": "7",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": "15"
-        }
+    "browser_support_desktop": {
+        "Chrome": "27",
+        "Firefox": "21",
+        "Safari": "7",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "15"
     },
+    "browser_support_mobile": {
+        "Chrome": "27",
+        "Firefox": "25",
+        "Safari": "7",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": "15"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "gRNyqE",
     "caniuse_identifier": "mdn-css_selectors_scope",
     "disqus_identifier": "735f2d4f7482ab2d7a2a9f51cb9e228c",
     "deprecated": false,
-    "order": 19,
-    "sub_selectors": []
+    "order": 19
 }

@@ -1,4 +1,5 @@
 {
+    "uuid": "293fc05a-cbed-4a82-8f48-d056a62883d4",
     "selector_version": 4,
     "slug": "relational-pseudo-class",
     "name": "Relational pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":has\\s*\\(",
     "example": ":has(*)",
     "example_description": "The mentioned example applies a blue background color to the header element with `<h1>` sub elements.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "105",
-            "Firefox": "121",
-            "Safari": "15.4",
-            "Edge": "105",
-            "Internet Explorer": false,
-            "Opera": "91"
-        },
-        "Mobile": {
-            "Chrome": "105",
-            "Firefox": "121",
-            "Safari": "15.4",
-            "Edge": "105",
-            "Internet Explorer": false,
-            "Opera": "72"
-        }
+    "browser_support_desktop": {
+        "Chrome": "105",
+        "Firefox": "121",
+        "Safari": "15.4",
+        "Edge": "105",
+        "Internet Explorer": false,
+        "Opera": "91"
     },
+    "browser_support_mobile": {
+        "Chrome": "105",
+        "Firefox": "121",
+        "Safari": "15.4",
+        "Edge": "105",
+        "Internet Explorer": false,
+        "Opera": "72"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "dRBLaK",
     "caniuse_identifier": "css-has",
     "disqus_identifier": "24747942b40457e6fff047286286f7a3",
     "deprecated": false,
-    "order": 18,
-    "sub_selectors": []
+    "order": 18
 }

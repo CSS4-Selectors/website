@@ -1,0 +1,19 @@
+{
+    "uuid": "072a2eed-8012-4733-8311-ff4885c318aa",
+    "selector_version": 3,
+    "name": "Empty",
+    "description": "The `:empty` pseudo-class matches any element that has no children. So its data length is greater than 0 whereas comments and processing instructions elements are ignored.",
+    "example_description": "Here, in this example, all empty elements will have a red, solid border.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": false,
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "RgzOyB",
+    "order": 2
+}

@@ -1,0 +1,19 @@
+{
+    "uuid": "590ed044-2363-43d9-8b68-79fda84f76e1",
+    "selector_version": 3,
+    "name": "Prefix",
+    "description": "The prefix attribute selector matches an element whose attribute value (which should not be empty) starts with the prefix value.",
+    "example_description": "Here will have all `https://` links a red bottom border.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "8.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "d5780407-b31c-41e4-ac1f-297cbd4aaacf",
+    "codepen_identifier": "OgeGQd",
+    "order": 1
+}

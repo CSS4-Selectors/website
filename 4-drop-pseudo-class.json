@@ -1,4 +1,5 @@
 {
+    "uuid": "9a323901-a81a-4777-b911-b3eb503b3baa",
     "selector_version": 4,
     "slug": "drop-pseudo-class",
     "name": "Drop pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":drop",
     "example": ":drop",
     "example_description": "In this example you could drop images (png, gif, jpeg) to the element with the text which has a blue background color if the browser supports this pseudo-class, the background color changes to yellow in its active state (user were to release the drag), green only matches if the drop target is valid for the currently dragged object and red if it's invalid.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "dRBLqm",
     "caniuse_identifier": false,
     "disqus_identifier": "9a0265eff236439979ba77b3e3369bbb",
     "deprecated": true,
-    "order": 5,
-    "sub_selectors": []
+    "order": 5
 }

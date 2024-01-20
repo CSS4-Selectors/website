@@ -1,0 +1,19 @@
+{
+    "uuid": "d44d9f0b-0bfb-480c-bb53-8e71cd2534ab",
+    "selector_version": 3,
+    "name": "Nth-Last-Child",
+    "description": "The `:nth-last-child()` pseudo-class behaves like [`:nth-child`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-child-class 'CSS3: Structural pseudo class') but with the difference that the siblings after it in the document tree will be selected.",
+    "example_description": "This example will select every even `<p>` and set a gray background.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "owrOyE",
+    "order": 9
+}

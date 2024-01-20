@@ -1,4 +1,5 @@
 {
+    "uuid": "d3f6d4e9-1d5d-4d9b-9a16-b4a04f3f0c1e",
     "selector_version": 4,
     "slug": "negation-pseudo-class",
     "name": "Negation pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":not\\s*\\([^\\)\\,]*[,]+[^\\)]*\\)",
     "example": ":not(s1, s2, …)",
     "example_description": "In this example all links are going to be selected which have no `rel` attribute with the attribute value `external` or `nofollow`. So you could style external or nofollow (marked) links different than regular ones.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "88",
-            "Firefox": "84",
-            "Safari": "10.1",
-            "Edge": "88",
-            "Internet Explorer": false,
-            "Opera": "74"
-        },
-        "Mobile": {
-            "Chrome": "88",
-            "Firefox": "84",
-            "Safari": "9.3",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": "88",
+        "Firefox": "84",
+        "Safari": "10.1",
+        "Edge": "88",
+        "Internet Explorer": false,
+        "Opera": "74"
     },
+    "browser_support_mobile": {
+        "Chrome": "88",
+        "Firefox": "84",
+        "Safari": "9.3",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "PjrgXL",
     "caniuse_identifier": "css-not-sel-list",
     "disqus_identifier": "40c9be3469bef9dfc19c84f118f4b785",
     "deprecated": false,
-    "order": 12,
-    "sub_selectors": []
+    "order": 12
 }

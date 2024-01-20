@@ -1,4 +1,5 @@
 {
+    "uuid": "18c888d9-e181-4c77-a8f6-1627b79a238b",
     "selector_version": 4,
     "slug": "local-link-pseudo-class",
     "name": "Local link pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":local-link",
     "example": ":local-link",
     "example_description": "All links inside the `nav` element targeting the same URL like the document URL will be red.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "XgLQoM",
     "caniuse_identifier": false,
     "disqus_identifier": "13f6a6dadc4bc66f1a7d8cbadf5beb3f",
     "deprecated": false,
-    "order": 8,
-    "sub_selectors": []
+    "order": 8
 }

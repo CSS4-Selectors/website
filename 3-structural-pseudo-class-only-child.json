@@ -1,0 +1,19 @@
+{
+    "uuid": "269ba9c6-7811-4403-b975-0d769473436d",
+    "selector_version": 3,
+    "name": "Only-Child",
+    "description": "The `:only-child` pseudo-class will select only elements which are the only child of its parent (element) and has no other children element(s). It's the same as `:first-child:last-child`.",
+    "example_description": "Every child node which is the only child of its parent will have a gray `background-color`.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "jwjRKO",
+    "order": 4
+}

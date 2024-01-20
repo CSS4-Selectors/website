@@ -1,0 +1,26 @@
+{
+    "uuid": "f506d129-90ae-4603-b12d-0ae91c4aabb2",
+    "selector_version": 2,
+    "name": "Hover",
+    "description": "The `:hover` selector matches if the user with a pointing device hovers over an element.",
+    "example_description": "The link will get a gray dashed outline border if the user hovers the link.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "2.0",
+        "Edge": "12.0",
+        "Internet Explorer": "4.0",
+        "Opera": "4.0"
+    },
+    "browser_support_mobile": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "2.0",
+        "Edge": "12.0",
+        "Internet Explorer": false,
+        "Opera": "4.0"
+    },
+    "nested_in_selector": "7bfa9a6c-ea47-4ab6-876f-a5410b6ea109",
+    "codepen_identifier": "QgXPgX",
+    "order": 1
+}

@@ -1,33 +1,32 @@
 {
+    "uuid": "8447fb92-6fb0-4c3c-8c8d-8b1db173509e",
     "selector_version": 4,
     "slug": "validity-pseudo-class",
     "name": "Validity pseudo-class",
     "description": "This pseudo-class is called **validity pseudo-class** and matches elements regarding their validation status. A validated element is either `valid` or `invalid`.",
     "statistics_regex": "(:valid|:invalid)",
     "example": ":valid / :invalid",
-    "example_description": "In this example the two input elements have the type `email`. The first input has a valid value and gets a green border while the second input has a red border due its invalid value.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "10",
-            "Firefox": "4",
-            "Safari": "5",
-            "Edge": "12.0",
-            "Internet Explorer": "10",
-            "Opera": "10"
-        },
-        "Mobile": {
-            "Android": "18",
-            "Firefox": "4",
-            "Safari": "5",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": "10"
-        }
+    "example_description": "In this example, the two input elements have the type `email`. The first input has a valid value and gets a green border while the second input has a red border due to its invalid value.",
+    "browser_support_desktop": {
+        "Chrome": "10",
+        "Firefox": "4",
+        "Safari": "5",
+        "Edge": "12.0",
+        "Internet Explorer": "10",
+        "Opera": "10"
     },
+    "browser_support_mobile": {
+        "Chrome": "18",
+        "Firefox": "4",
+        "Safari": "5",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": "10"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "zzVXez",
     "caniuse_identifier": "mdn-css_selectors_valid",
     "disqus_identifier": "1d2c12c115a83a53d128d2a4cd209941",
     "deprecated": false,
-    "order": 16,
-    "sub_selectors": []
+    "order": 16
 }

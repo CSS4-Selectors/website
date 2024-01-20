@@ -1,4 +1,5 @@
 {
+    "uuid": "f243693e-3d09-4e78-916e-071dcd3288c8",
     "selector_version": 4,
     "slug": "time-dimensional-pseudo-class",
     "name": "Time-dimensional pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": "(:current|:past|:future)",
     "example": ":current / :past / :future",
     "example_description": "These selector rules will highlight the current read aloud speech with a yellow background and the previous and next siblings will be hidden.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": "7",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": "7",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": "7",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": "7",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "JJQVzM",
     "caniuse_identifier": "mdn-css_selectors_future",
     "disqus_identifier": "4844e7c77c1c55b07a53d393a7e63150",
     "deprecated": false,
-    "order": 22,
-    "sub_selectors": []
+    "order": 22
 }

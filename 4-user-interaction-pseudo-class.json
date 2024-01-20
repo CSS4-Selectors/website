@@ -1,33 +1,32 @@
 {
+    "uuid": "e647c2ac-2a2d-4f8f-9f95-4f0b792862a7",
     "selector_version": 4,
     "slug": "user-interaction-pseudo-class",
     "name": "User-interaction pseudo-class",
     "description": "This pseudo-class is called **user-interaction pseudo-class** and represents elements with invalid input but only after the user interacted with the matched element, for example by focusing it or trying to submit a form containing it.",
     "statistics_regex": ":user-invalid",
     "example": ":user-invalid",
-    "example_description": "In this example the input with invalid content will have a red border after it got focused.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": "88",
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": "88",
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "example_description": "In this example, the input with invalid content will have a red border after it gets focused.",
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": "88",
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": "88",
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "MVxwvY",
     "caniuse_identifier": "mdn-css_selectors_user-invalid",
     "disqus_identifier": "711f2d4f7482ab2d7a2a9f51cb9e228c",
     "deprecated": false,
-    "order": 17,
-    "sub_selectors": []
+    "order": 17
 }

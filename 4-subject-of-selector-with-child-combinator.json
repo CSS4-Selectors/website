@@ -1,32 +1,32 @@
 {
+    "uuid": "f47a9e9c-6e7a-45c0-b7f7-8c8ef9c2b873",
     "selector_version": 4,
     "slug": "subject-of-selector-with-child-combinator",
     "name": "Subject of a selector with Child combinator",
     "description": "The **subject of a selector with child combinator** is normally the last compound selector itself but with this selector type it's possible to change this subject of the selector to the `!` prefixed selector subject. The structure stays the same just the subject changes.",
+    "statistics_regex": null,
     "example": "E! > F",
     "example_description": "In this example there will be a green `border` around the ul (unordered list) instead the list items.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "MoMRxj",
     "caniuse_identifier": false,
     "disqus_identifier": "b04fe2f7212297652a49654a960b96dc",
     "deprecated": true,
-    "order": 30,
-    "sub_selectors": []
+    "order": 30
 }

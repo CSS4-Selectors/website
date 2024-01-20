@@ -1,4 +1,5 @@
 {
+    "uuid": "d7947dd5-0d47-4c06-9c27-06c57b3e3e6c",
     "selector_version": 4,
     "slug": "specificity-adjustment-pseudo-class",
     "name": "Specificity-adjustment pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":where\\s*\\(",
     "example": ":where(s1, s2, …)",
     "example_description": "All inputs in this example should have a black background (except on focus) with a specificity of zero which means `form input` would already overwrite the selector due to a higher specificity.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "88",
-            "Firefox": "78",
-            "Safari": "14",
-            "Edge": "88",
-            "Internet Explorer": false,
-            "Opera": "74"
-        },
-        "Mobile": {
-            "Chrome": "88",
-            "Firefox": "79",
-            "Safari": "14",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": "64"
-        }
+    "browser_support_desktop": {
+        "Chrome": "88",
+        "Firefox": "78",
+        "Safari": "14",
+        "Edge": "88",
+        "Internet Explorer": false,
+        "Opera": "74"
     },
+    "browser_support_mobile": {
+        "Chrome": "88",
+        "Firefox": "79",
+        "Safari": "14",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": "64"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "oqmdmY",
     "caniuse_identifier": "mdn-css_selectors_where",
     "disqus_identifier": "2e35f577e7a4e3b12089c1e6093634b3",
     "deprecated": false,
-    "order": 10,
-    "sub_selectors": []
+    "order": 10
 }

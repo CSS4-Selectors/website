@@ -1,0 +1,19 @@
+{
+    "uuid": "14cf2563-3065-44f9-8b64-1171f8b173a8",
+    "selector_version": 3,
+    "name": "Nth-Of-Type",
+    "description": "The `:nth-of-type()` pseudo-class behaves like [`:nth-child`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-child-class 'CSS3: Structural pseudo class') but with the difference that only elements with the same element name will be selected.",
+    "example_description": "This example will select every odd only `<p>` element and set a gray background.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "YQoMvv",
+    "order": 10
+}

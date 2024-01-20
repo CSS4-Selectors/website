@@ -1,0 +1,19 @@
+{
+    "uuid": "f5bb148a-343f-49ca-b6e4-7c6bc7743040",
+    "selector_version": 2,
+    "name": "Hyphen",
+    "description": "This attribute selector selects all elements which hyphen-separated attribute values are the same.",
+    "example_description": "All elements that have an English - `en` - attribute which is or could be separated by hyphens will get a blue border.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "7.0",
+        "Opera": "6.0"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "1b38e3b6-44b7-42c2-8def-485dd6bc0885",
+    "codepen_identifier": "EXBJWg",
+    "order": 4
+}

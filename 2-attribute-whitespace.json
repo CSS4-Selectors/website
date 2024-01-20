@@ -1,0 +1,19 @@
+{
+    "uuid": "095ac3b0-f4a7-4e0b-8306-f329161225b4",
+    "selector_version": 2,
+    "name": "Whitespace",
+    "description": "This attribute selector matches elements which whitespace-separated attribute values are the same as specified.",
+    "example_description": "All elements which have an `class` attribute with an `alert` class (separated by whitespace(s)) will get a red background.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "7.0",
+        "Opera": "6.0"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "1b38e3b6-44b7-42c2-8def-485dd6bc0885",
+    "codepen_identifier": "YQoMNY",
+    "order": 3
+}

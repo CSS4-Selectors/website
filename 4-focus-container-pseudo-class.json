@@ -1,4 +1,5 @@
 {
+    "uuid": "9f32c327-5898-4e6f-9d15-9bc8e5d17712",
     "selector_version": 4,
     "slug": "focus-container-pseudo-class",
     "name": "Focus container pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":focus-within",
     "example": ":focus-within",
     "example_description": "After focusing the input the parent `form` should have a yellow background.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "60",
-            "Firefox": "52",
-            "Safari": "10.1",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "47"
-        },
-        "Mobile": {
-            "Chrome": "60",
-            "Firefox": "52",
-            "Safari": "10.3",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "47"
-        }
+    "browser_support_desktop": {
+        "Chrome": "60",
+        "Firefox": "52",
+        "Safari": "10.1",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "47"
     },
+    "browser_support_mobile": {
+        "Chrome": "60",
+        "Firefox": "52",
+        "Safari": "10.3",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "47"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "RMdWGd",
     "caniuse_identifier": "css-focus-within",
     "disqus_identifier": "87d19c3ae2abdf88ee1a28968e0c7dce",
     "deprecated": false,
-    "order": 24,
-    "sub_selectors": []
+    "order": 24
 }

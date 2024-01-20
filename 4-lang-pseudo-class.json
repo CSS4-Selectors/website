@@ -1,4 +1,5 @@
 {
+    "uuid": "83a8e3a2-01c2-4a06-bc3e-30e1f822462b",
     "selector_version": 4,
     "slug": "lang-pseudo-class",
     "name": "Lang pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":lang\\s*\\((.*\\*+)\\)",
     "example": ":lang(en-*)",
     "example_description": "While all elements with a language attribute that indicates English will have a red color, the French text will keep its default color.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "KqjYbd",
     "caniuse_identifier": false,
     "disqus_identifier": "aa51a70e8e18fa9c9c458e9fb7a3187e",
     "deprecated": false,
-    "order": 7,
-    "sub_selectors": []
+    "order": 7
 }

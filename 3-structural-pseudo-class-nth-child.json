@@ -1,0 +1,19 @@
+{
+    "uuid": "fd772270-df95-47af-b958-6e31f54a9e15",
+    "selector_version": 3,
+    "name": "Nth-Child",
+    "description": "The `:nth-child()` pseudo-class will first split the elements into groups of `a` elements and then select any child element that is the `b`th child.",
+    "example_description": "This example will select every odd `<p>` and set a gray background.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "xroezL",
+    "order": 8
+}

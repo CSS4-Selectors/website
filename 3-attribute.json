@@ -1,64 +1,18 @@
 {
+    "uuid": "d5780407-b31c-41e4-ac1f-297cbd4aaacf",
     "selector_version": 3,
     "slug": "attribute",
     "name": "Attribute",
     "description": "This are **attribute selectors** which provide selecting matching strings in the value of an attribute.\n[info]These CSS3 selectors already occurred less powerful as attribute selectors in [`CSS2`](https://css4-selectors.com/selector/css2/attribute/ 'CSS2: Attribute').[/info]",
+    "statistics_regex": null,
     "example": "[foo^='bar'] / [foo$='bar'] / [foo*='bar']",
     "example_description": false,
-    "browser_support": {},
+    "browser_support_desktop": {},
+    "browser_support_mobile": {},
+    "nested_in_selector": null,
     "codepen_identifier": false,
     "caniuse_identifier": false,
     "disqus_identifier": "3a16b121b0105dfcfb52290981131fbd",
     "deprecated": false,
-    "order": 1,
-    "sub_selectors": [
-        {
-            "name": "Prefix",
-            "description": "The prefix attribute selector matches an element whose attribute value (which should not be empty) starts with the prefix value.",
-            "example_description": "Here will have all `https://` links a red bottom border.",
-            "browser_support": {
-                "Desktop": {
-                    "Chrome": "1.0",
-                    "Firefox": "3.0",
-                    "Safari": "1.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": "8.0",
-                    "Opera": "9.5"
-                }
-            },
-            "codepen_identifier": "OgeGQd"
-        },
-        {
-            "name": "Suffix",
-            "description": "The suffix attribute selector selects an element whose attribute value (which shouldn't be empty) ends with the suffix value.",
-            "example_description": "Every link with the ending of `.pdf` will have a red bottom border.",
-            "browser_support": {
-                "Desktop": {
-                    "Chrome": "1.0",
-                    "Firefox": "3.0",
-                    "Safari": "1.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": "8.0",
-                    "Opera": "9.5"
-                }
-            },
-            "codepen_identifier": "yXdrKY"
-        },
-        {
-            "name": "Contains",
-            "description": "The contains attribute selector matches any element whose attribute value contains the given value at least once.",
-            "example_description": "Every element which contains the value `example` get a dashed blue border.",
-            "browser_support": {
-                "Desktop": {
-                    "Chrome": "1.0",
-                    "Firefox": "3.0",
-                    "Safari": "1.0",
-                    "Edge": "12.0",
-                    "Internet Explorer": "8.0",
-                    "Opera": "9.5"
-                }
-            },
-            "codepen_identifier": "ZydZxW"
-        }
-    ]
+    "order": 1
 }

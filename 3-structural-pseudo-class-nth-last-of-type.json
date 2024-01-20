@@ -1,0 +1,19 @@
+{
+    "uuid": "f1a997f0-dd11-4cde-875e-a3c4b573164b",
+    "selector_version": 3,
+    "name": "Nth-Last-Of-Type",
+    "description": "The `:nth-of-type()` pseudo-class behaves like [`:nth-of-type`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#nth-of-type-class 'CSS3: Structural pseudo class') but with the difference that the specified element siblings after it in the document tree will be selected.",
+    "example_description": "This example will select every even only `<p>` element and set a gray background.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "RgzOJY",
+    "order": 11
+}

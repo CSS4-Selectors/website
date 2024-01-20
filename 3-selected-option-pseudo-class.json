@@ -1,24 +1,24 @@
 {
+    "uuid": "8de4f76a-d603-4229-9bbc-2f72c6dde0ef",
     "selector_version": 3,
     "slug": "selected-option-pseudo-class",
     "name": "Selected-option pseudo-class",
     "description": "This pseudo-class is called **selected-option** and will match any element which is in checked mode when the user selects the element(s), e.g. checkboxes or radio buttons.",
+    "statistics_regex": null,
     "example": ":checked",
     "example_description": "Here, in this example, will change the `opacity` of a checked checkbox to the value of 50%.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "3.0",
-            "Edge": "12.0",
-            "Internet Explorer": "9.0",
-            "Opera": "9.0"
-        }
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "3.0",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.0"
     },
+    "nested_in_selector": null,
     "codepen_identifier": "XgLQqN",
     "caniuse_identifier": false,
     "disqus_identifier": "4c402296e95e3ffbcee3c578aa801dbb",
     "deprecated": false,
-    "order": 6,
-    "sub_selectors": []
+    "order": 6
 }

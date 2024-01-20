@@ -1,4 +1,5 @@
 {
+    "uuid": "adb1d673-9465-4a13-9d59-f50f03d9323f",
     "selector_version": 4,
     "slug": "column-combination",
     "name": "Column combination",
@@ -6,28 +7,26 @@
     "statistics_regex": "\\|\\|",
     "example": "E || F",
     "example_description": "The mentioned example would set the `background-color` of 3, 5 and 7 to blue.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "gRNyjZ",
     "caniuse_identifier": "mdn-css_selectors_column",
     "disqus_identifier": "7e990cc9d5036b1d2510ee3f1cf190a3",
     "deprecated": false,
-    "order": 27,
-    "sub_selectors": []
+    "order": 27
 }

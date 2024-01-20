@@ -1,4 +1,5 @@
 {
+    "uuid": "5b8245a9-6037-4bf3-adb6-b95676c14c8c",
     "selector_version": 4,
     "slug": "descendant-combination",
     "name": "Descendant combination",
@@ -6,28 +7,26 @@
     "statistics_regex": ">>",
     "example": "E >> F",
     "example_description": "This example will add a green `background-color` with a white `color` to every `<span>` which has a `<div>` as parent.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": "11",
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": false,
-            "Safari": false,
-            "Edge": false,
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": "11",
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": false,
+        "Safari": false,
+        "Edge": false,
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "jwjRvE",
     "caniuse_identifier": "css-descendant-gtgt",
     "disqus_identifier": "94f6cf265da1cec2f8cfe3dde4c476d1",
     "deprecated": true,
-    "order": 28,
-    "sub_selectors": []
+    "order": 28
 }

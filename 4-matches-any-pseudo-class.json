@@ -1,33 +1,32 @@
 {
+    "uuid": "24b1a2f4-70f1-4877-b9e3-ccf7f466ed90",
     "selector_version": 4,
     "slug": "matches-any-pseudo-class",
     "name": "Matches-any pseudo-class",
     "description": "This pseudo-class is called **matches-any pseudo-class** and takes a [selector list](https://www.w3.org/TR/selectors/#grouping 'W3C: Selector list') as argument. It lets you create sets of selectors by instituting groups which match all included selectors. Other pseudo-elements can't be represented with this pseudo-class, so e.g. negations may not be nested like this _invalid_ example: `E:is(:is(F))`. Please note this selector was previously named `:matches()`.",
     "statistics_regex": ":is\\s*\\((.*)\\)",
     "example": ":is(s1, s2, …)",
-    "example_description": "This example will select all `h1` headings which are childs of `section, article, aside` grouped by the `:is` selector.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "12",
-            "Firefox": "4",
-            "Safari": "5.1",
-            "Edge": "88",
-            "Internet Explorer": false,
-            "Opera": "15"
-        },
-        "Mobile": {
-            "Chrome": "59",
-            "Firefox": "54",
-            "Safari": "5",
-            "Edge": "88",
-            "Internet Explorer": false,
-            "Opera": "37"
-        }
+    "example_description": "This example will select all `h1` headings which are children of `section, article, aside` grouped by the `:is` selector.",
+    "browser_support_desktop": {
+        "Chrome": "12",
+        "Firefox": "4",
+        "Safari": "5.1",
+        "Edge": "88",
+        "Internet Explorer": false,
+        "Opera": "15"
     },
+    "browser_support_mobile": {
+        "Chrome": "59",
+        "Firefox": "54",
+        "Safari": "5",
+        "Edge": "88",
+        "Internet Explorer": false,
+        "Opera": "37"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "dRBLwe",
     "caniuse_identifier": "css-matches-pseudo",
     "disqus_identifier": "6e35f577e7a4e3b12089c1e6093634b3",
     "deprecated": false,
-    "order": 9,
-    "sub_selectors": []
+    "order": 9
 }

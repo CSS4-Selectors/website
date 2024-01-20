@@ -1,32 +1,32 @@
 {
+    "uuid": "98765432-10ab-4cde-8f76-543210abcdef",
     "selector_version": 2,
     "slug": "lang-pseudo-class",
     "name": "Lang pseudo-class",
     "description": "The **lang pseudo-class** will match the elements based on the document language. This could be set via the `lang` HTML attribute, an `HTTP` or `<meta>` information.\n[info]There will be [wildcard (`*`) matching selectors](https://css4-selectors.com/selector/css4/lang-pseudo-class/ 'CSS4: Lang Pseudo Class') in CSS4.[/info]",
+    "statistics_regex": null,
     "example": ":lang(en)",
-    "example_description": "While all elements with an English language will have a red color, the German language based text will have an blue color.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "3.1",
-            "Edge": "12.0",
-            "Internet Explorer": "8.0",
-            "Opera": "8.0"
-        },
-        "Mobile": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "8.0",
-            "Opera": "2.0"
-        }
+    "example_description": "While all elements with an English language will have a red color, the German language-based text will have a blue color.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "8.0",
+        "Opera": "8.0"
     },
+    "browser_support_mobile": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "8.0",
+        "Opera": "2.0"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "vZqMxd",
     "caniuse_identifier": false,
     "disqus_identifier": "aa67ff569fa5753c9d237bbda32d8313",
     "deprecated": false,
-    "order": 2,
-    "sub_selectors": []
+    "order": 2
 }

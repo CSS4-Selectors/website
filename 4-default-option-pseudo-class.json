@@ -1,4 +1,5 @@
 {
+    "uuid": "adf48020-863d-4d46-9613-844207888e6d",
     "selector_version": 4,
     "slug": "default-option-pseudo-class",
     "name": "Default option pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": ":default",
     "example": ":default",
     "example_description": "The mentioned example would set the `background-color` of a default element of a selection list/button group to `gray`.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "6.0",
-            "Firefox": "4.0",
-            "Safari": "5.1",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "12.1"
-        },
-        "Mobile": {
-            "Chrome": "6.0",
-            "Firefox": "4.0",
-            "Safari": "7.1",
-            "Edge": "79",
-            "Internet Explorer": false,
-            "Opera": "12.1"
-        }
+    "browser_support_desktop": {
+        "Chrome": "6.0",
+        "Firefox": "4.0",
+        "Safari": "5.1",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "12.1"
     },
+    "browser_support_mobile": {
+        "Chrome": "6.0",
+        "Firefox": "4.0",
+        "Safari": "7.1",
+        "Edge": "79",
+        "Internet Explorer": false,
+        "Opera": "12.1"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "WOqWge",
     "caniuse_identifier": "css-default-pseudo",
     "disqus_identifier": "f27093e162b44999c0c0aee82b2af2f9",
     "deprecated": false,
-    "order": 23,
-    "sub_selectors": []
+    "order": 23
 }

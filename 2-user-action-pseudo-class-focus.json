@@ -1,0 +1,26 @@
+{
+    "uuid": "551e7305-9b86-4a24-b578-e8d005026325",
+    "selector_version": 2,
+    "name": "Focus",
+    "description": "The `:focus` selector will match any element which has currently keyboard or input focus.",
+    "example_description": "The link will change his color to red if the link is focused.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "2.0",
+        "Edge": "12.0",
+        "Internet Explorer": "4.0",
+        "Opera": "4.0"
+    },
+    "browser_support_mobile": {
+        "Chrome": "1.0",
+        "Firefox": "4.0",
+        "Safari": "2.0",
+        "Edge": "12.0",
+        "Internet Explorer": false,
+        "Opera": "2.0"
+    },
+    "nested_in_selector": "7bfa9a6c-ea47-4ab6-876f-a5410b6ea109",
+    "codepen_identifier": "eRwoEJ",
+    "order": 2
+}

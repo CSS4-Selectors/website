@@ -1,32 +1,32 @@
 {
+    "uuid": "cfd1111e-516c-4de0-820b-36b5ebc402f2",
     "selector_version": 1,
     "slug": "user-action-pseudo-class",
     "name": "User action pseudo-class",
     "description": "This **user action pseudo-class** will match elements which are activated by a user, this could happen between the user clicked/activated a button and release this action then.",
+    "statistics_regex": null,
     "example": ":active",
     "example_description": "In this example will the `<button>` get a pink background if the user clicks and holds it.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "3.0",
-            "Opera": "7.0"
-        },
-        "Mobile": {
-            "Chrome": "1.0",
-            "Firefox": "1.0",
-            "Safari": "1.0",
-            "Edge": "12.0",
-            "Internet Explorer": "3.0",
-            "Opera": "7.0"
-        }
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "3.0",
+        "Opera": "7.0"
     },
+    "browser_support_mobile": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "3.0",
+        "Opera": "7.0"
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "RgzOrx",
     "caniuse_identifier": false,
     "disqus_identifier": "fdf2dbb5714a091c845e9d9923091eb6",
     "deprecated": false,
-    "order": 6,
-    "sub_selectors": []
+    "order": 6
 }

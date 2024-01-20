@@ -1,0 +1,19 @@
+{
+    "uuid": "f9df3ffa-a4dd-48cb-a19e-fb1a72b82f74",
+    "selector_version": 3,
+    "name": "Last-Of-Type",
+    "description": "The `:last-of-type` pseudo-class is the opposite of [`:first-of-type`](https://css4-selectors.com/selector/css3/structural-pseudo-class/#first-of-type-class 'CSS3: Structural pseudo class') and is going to match the last element of the (optionally specified) type. It's also the same as `:nth-last-of-type(1)`.",
+    "example_description": "This example code will select only the last `<span>` element of its parent element and give it a gray background.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "3.5",
+        "Safari": "3.1",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "MoMRXy",
+    "order": 6
+}

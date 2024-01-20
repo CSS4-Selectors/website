@@ -1,0 +1,19 @@
+{
+    "uuid": "297f9e43-1620-47f2-9d34-fdd69b4e4d11",
+    "selector_version": 2,
+    "name": "Exactly",
+    "description": "This attribute selector matches any element which attribute value is exactly the same as specified via CSS.",
+    "example_description": "All elements which have an `lang` attribute to `en` will get a black bottom border.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "7.0",
+        "Opera": "6.0"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "1b38e3b6-44b7-42c2-8def-485dd6bc0885",
+    "codepen_identifier": "awgxpB",
+    "order": 2
+}

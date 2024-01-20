@@ -1,0 +1,19 @@
+{
+    "uuid": "b4a7ed11-d856-468d-8634-a4bb38c1d526",
+    "selector_version": 3,
+    "name": "Root",
+    "description": "The `:root` pseudo-class matches the root element of a document. In HTML documents this is always the `<html>` element.",
+    "example_description": "In this example the root element `<html>` will get a gray `background-color`.",
+    "browser_support_desktop": {
+        "Chrome": "1.0",
+        "Firefox": "1.0",
+        "Safari": "1.0",
+        "Edge": "12.0",
+        "Internet Explorer": "9.0",
+        "Opera": "9.5"
+    },
+    "browser_support_mobile": {},
+    "nested_in_selector": "324774dc-9c30-497a-b03f-ceb0c84603b1",
+    "codepen_identifier": "LLKvmO",
+    "order": 1
+}

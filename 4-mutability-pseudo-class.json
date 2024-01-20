@@ -1,4 +1,5 @@
 {
+    "uuid": "22ef69c7-7a9c-4ea5-b6ad-1fc155996679",
     "selector_version": 4,
     "slug": "mutability-pseudo-class",
     "name": "Mutability pseudo-class",
@@ -6,28 +7,26 @@
     "statistics_regex": "(:read-only|:read-write)",
     "example": ":read-only / :read-write",
     "example_description": "In the above mentioned code all non-alterable content is going to have the font `Verdana, Arial, sans-serif` while the editable inputs or contenteditable content is going to have a different font with a dotted gray border.",
-    "browser_support": {
-        "Desktop": {
-            "Chrome": "32",
-            "Firefox": "36",
-            "Safari": "8",
-            "Edge": "13",
-            "Internet Explorer": false,
-            "Opera": "14"
-        },
-        "Mobile": {
-            "Chrome": false,
-            "Firefox": "36",
-            "Safari": "9",
-            "Edge": "13",
-            "Internet Explorer": false,
-            "Opera": false
-        }
+    "browser_support_desktop": {
+        "Chrome": "32",
+        "Firefox": "36",
+        "Safari": "8",
+        "Edge": "13",
+        "Internet Explorer": false,
+        "Opera": "14"
     },
+    "browser_support_mobile": {
+        "Chrome": false,
+        "Firefox": "36",
+        "Safari": "9",
+        "Edge": "13",
+        "Internet Explorer": false,
+        "Opera": false
+    },
+    "nested_in_selector": null,
     "codepen_identifier": "RgzOEe",
     "caniuse_identifier": "css-read-only-write",
     "disqus_identifier": "aa796bbf9e0a45500e4c9de8b4fa848d",
     "deprecated": false,
-    "order": 11,
-    "sub_selectors": []
+    "order": 11
 }
