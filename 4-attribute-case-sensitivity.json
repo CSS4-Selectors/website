@@ -6,7 +6,7 @@
     "description": "The **attribute case-sensitivity** selector is mostly equivalent to the [CSS2 attribute selector](https://css4-selectors.com/selector/css2/attribute/ 'CSS2: Attribute') but with the difference set the case-(in)sensitive within the ASCII range. `i` selects an element using the given attribute value in case-insensitive mode. `s` sets the given attribute value to be case-sensitive. By default, the selector is case-sensitive but it depends on the document language.",
     "statistics_regex": "(\\s+i\\]|\\s+s\\])",
     "example": "[attribute='value' i] / [attribute='value' s]",
-    "example_description": "Here it's possible to select all links which have an href attribute with the exact ending `pdf` but not the value endings `PDF` or `pDf`.",
+    "example_description": "Here it's possible to select all links which have an href attribute with the case-insensitive ending `pdf` (e.g. `PDF`, `pdf` or even `pDf`).",
     "browser_support_desktop": {
         "Chrome": "49",
         "Firefox": "47",
